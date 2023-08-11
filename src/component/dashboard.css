@@ -1,0 +1,100 @@
+.dashBoardIntro{
+    text-align: center;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    border-radius: 0;
+    width: 100vw;
+    height: 80vh;
+    background: var(--colorBgGradient),url('plane.png');
+    background-size:100% , 100% 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: color;
+    font-size: 8vw;
+    position: relative;
+}
+
+.flightContainer{
+    border-top-left-radius: 25vw;
+    border-top-right-radius: 25vw;
+    background-color: white;
+    margin-top: -10vh;
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+}   
+.landScape{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+}
+.portrait{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+.cardRow{
+    position: relative;
+    overflow: hidden;
+    font-size: 1rem;
+}
+.cardTitleImg{
+    z-index: 2;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: transparent;
+}
+.cardDetails{
+    width: 50%;
+    /* height: 60%; */
+    z-index: 1;
+}
+.cardTitle{
+    font-weight: bold;
+    font-size: 1.5rem !important;
+    text-transform: uppercase;
+}
+.cardSubTitle1{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.cardSubTitle2{
+    color: var(--colorBg);
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+.cardDescription{
+    /* text-align: justify; */
+    overflow: hidden;
+    --max-lines: 3;
+    --line-height: 1.4;
+    height: calc(var(--max-lines) * 1em * var(--line-height));
+    line-height: var(--line-height);
+    position: relative;
+}
+.cardDescription::before {
+    content: "";
+    position: absolute;
+    height: calc(2em * var(--line-height));
+    width: 100%;
+    bottom: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom, transparent, white);
+  }
+
+.cardDesLink{
+    font-size: 0.8rem;
+    color : grey;
+}
+@media screen and (min-width: 750px) {
+    /* .cardRow{
+        flex-direction: row;
+        height : 35vh;
+    }    */
+}
+
