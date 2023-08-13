@@ -12,6 +12,8 @@ export default function dashboard() {
     cardDescription : "This is a limited time deal for valued Customers of AnB",
     cardDesLink : "See here"
   }
+
+
   return (
     <div>
       <div className="dashBoardIntro">
@@ -19,6 +21,12 @@ export default function dashboard() {
       FAR AWAY
     </div>
       <div className='flightContainer'>
+        
+        <div className='row '>
+          <FlightCard  displayStyle="portrait" width="40%" height="40vh" />
+          <FlightCard  displayStyle="portrait" width="40%" height="40vh" className='my2'/>
+          <FlightCard  displayStyle="portrait" width="40%" height="40vh"/>
+        </div>
         <div className='column flexCenter'>
           <div className='row justifyAround'>
         <FlightCard displayStyle="portrait" width="40%" height="50vh" data={data} />

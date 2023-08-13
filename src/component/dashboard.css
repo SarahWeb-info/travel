@@ -5,13 +5,11 @@
     border-radius: 0;
     width: 100vw;
     height: 80vh;
-    background: var(--colorBgGradient),url('plane.png');
-    background-size:100% , 100% 30vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-blend-mode: color;
     font-size: 8vw;
     position: relative;
+    mix-blend-mode: color-burn;
+    color: #ffffffa3;
+    text-shadow: 1px 2px 2px rgba(11,44,66,0.98);
 }
 
 .flightContainer{
@@ -26,7 +24,16 @@
     align-items: center;
     width: 100vw;
     height: auto;
+    overflow: hidden;
 }   
+.rotatingTxt{
+    position: absolute;
+    top : 0;
+    left: 50%;
+    font-size: 8vw;
+    color: #ffffffa3;
+    text-shadow: 1px 2px 2px rgba(11,44,66,0.98);
+}
 .landScape{
     display: flex;
     flex-direction: row;

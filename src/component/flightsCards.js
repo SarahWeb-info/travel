@@ -1,6 +1,5 @@
 import React from 'react'
 import DefaultImg from './plane.png'
-import PropTypes from 'prop-types'
 
 export default function flightsCards(props) {
     console.log(props.data.cardTitle)
@@ -13,7 +12,7 @@ export default function flightsCards(props) {
             <p className='cardTitle'>{props.data.cardTitle}</p>
             <p className='cardSubTitle1'>{props.data.cardSubTitle1}</p>
             <p className='cardDescription'>{props.data.cardDescription}</p>
-            <a className='cardDesLink'>{props.data.cardDesLink}</a>             
+            <a className='cardDesLink' href="sarahweb.info">{props.data.cardDesLink}</a>             
       </div>
     </div>
   );

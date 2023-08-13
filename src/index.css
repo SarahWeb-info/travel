@@ -22,6 +22,11 @@ body{
   padding: 0;
   margin: 0;
   background-color: var(--colorBg);
+  background: url('shore.jpg');
+  /* background-size:100% , 100% 30vh; */
+  background-repeat: no-repeat;
+  background-position:0px;
+
 }
 body,html,div,button{
   position: relative;
