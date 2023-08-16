@@ -1,0 +1,2 @@
+<FlightCard displayStyle='portrait' width='20vw' height="25vw" key={index} data={item}/>
+

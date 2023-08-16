@@ -10,7 +10,6 @@ export default function flightsCards(props) {
             <small className='cardSubTitle2'>{props.data.cardSubTitle2}</small>
             <p className='cardTitle'>{props.data.cardTitle}</p>
             <p className='cardSubTitle1'>{props.data.cardSubTitle1}</p>
-            <p className='cardDescription'>{props.data.cardDescription}</p>
             <a className='cardDesLink' href={props.data.cardDesLink}>More..</a>             
       </div>
     </div>
@@ -26,7 +25,6 @@ flightsCards.defaultProps = {
         cardTitle : "",
         cardSubTitle1 : "",
         cardSubTitle2 : "",
-        cardDescription : "",
         cardDesLink : "https://www.tripadvisor.com/"
         }
   };
