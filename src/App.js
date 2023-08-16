@@ -7,7 +7,7 @@ import Tags from './component/tags'
 import Grid from './component/grid'
  
 export default function App() {
-
+  let apiKey = process.env.REACT_APP_API;
   return (
     <>
     <Nav />    
@@ -18,7 +18,7 @@ export default function App() {
     <Dashboard />
     <Tags />
     <h2 className='alignCenter'>About Destination</h2>
-    <Grid />
+    <Grid apiKey={apiKey} />
     <div id='footer'>
       <small>This webpage is made by SarahWeb.info  All Copyright Reserved</small>
     </div>

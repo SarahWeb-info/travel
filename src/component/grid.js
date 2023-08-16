@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import FlightCard from './flightsCards'
 
-export default function Grid() {
+export default function Grid(props) {
   const [data, setData] = useState([
     {
         cardTitleImg :"",
@@ -25,7 +25,7 @@ const getData =()=>{
   const options = {
       method: 'GET',
       headers: {
-          'X-RapidAPI-Key': '10a4ba1cd4msh1ea4162312a54efp1c67bdjsnec864ab7b06e',
+          'X-RapidAPI-Key': `${props.apiKey}`,
           'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
       }
   };	
