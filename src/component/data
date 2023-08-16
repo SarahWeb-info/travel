@@ -1,357 +1,542 @@
-{
-  "data": {
-    "Typeahead_autocomplete": {
-      "__typename": "Typeahead_Response",
-      "resultsId": "6c789ff7-4af7-4343-9ee1-28e774c31317_bc3e6e12-b7f0-448a-8dd8-209c21223668",
-      "results": [
-        {
-          "__typename": "Typeahead_LocationItem",
-          "documentId": "188151",
-          "detailsV2": {
-            "__typename": "LocationSelection_LocationInformationV2",
-            "locationId": 188151,
-            "isGeo": false,
-            "placeType": "ATTRACTION",
-            "names": {
-              "__typename": "LocationSelection_LocationNames",
-              "name": "Eiffel Tower",
-              "longOnlyHierarchyTypeaheadV2": "Paris, Ile-de-France, France"
-            },
-            "geocode": {
-              "__typename": "LocationSelection_LocationInformationV2Geocode",
-              "latitude": 48.858353,
-              "longitude": 2.294464
-            },
-            "contact": {
-              "__typename": "LocationSelection_LocationInformationV2Contact",
-              "streetAddress": {
-                "__typename": "LocationSelection_Address",
-                "street1": "5 Avenue Anatole France"
-              }
-            },
-            "route": null
-          },
-          "details": {
-            "__typename": "LocationInformation",
-            "socialStatistics": {
-              "__typename": "SocialStatistics",
-              "isSaved": false
-            }
-          },
-          "image": {
-            "__typename": "PrimaryMedia_PrimaryMedia",
-            "photo": {
-              "__typename": "Photo",
-              "photoSizeDynamic": {
-                "__typename": "PhotoSizeDynamic",
-                "maxHeight": 1744,
-                "maxWidth": 1172,
-                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/9e/7f/9d/eiffeltoren.jpg?w={width}&h={height}&s=1"
-              },
-              "photoSizes": [
-                {
-                  "__typename": "PhotoSize",
-                  "height": 0,
-                  "width": 0,
-                  "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/9e/7f/9d/eiffeltoren.jpg?w=100&h=100&s=1"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 50,
-                  "width": 50,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-t/1a/9e/7f/9d/eiffeltoren.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 205,
-                  "width": 138,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-f/1a/9e/7f/9d/eiffeltoren.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 150,
-                  "width": 150,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-l/1a/9e/7f/9d/eiffeltoren.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 200,
-                  "width": 180,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-i/1a/9e/7f/9d/eiffeltoren.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 450,
-                  "width": 302,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/9e/7f/9d/eiffeltoren.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 818,
-                  "width": 550,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-p/1a/9e/7f/9d/eiffeltoren.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 1280,
-                  "width": 860,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/9e/7f/9d/eiffeltoren.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 1524,
-                  "width": 1024,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-w/1a/9e/7f/9d/eiffeltoren.jpg"
-                }
-              ]
-            }
-          }
-        },
-        {
-          "__typename": "Typeahead_LocationItem",
-          "documentId": "422627",
-          "detailsV2": {
-            "__typename": "LocationSelection_LocationInformationV2",
-            "locationId": 422627,
-            "isGeo": false,
-            "placeType": "EATERY",
-            "names": {
-              "__typename": "LocationSelection_LocationNames",
-              "name": "Eiffel Tower Restaurant at Paris Las Vegas",
-              "longOnlyHierarchyTypeaheadV2": "Las Vegas, Nevada"
-            },
-            "geocode": {
-              "__typename": "LocationSelection_LocationInformationV2Geocode",
-              "latitude": 36.112453,
-              "longitude": -115.17224
-            },
-            "contact": {
-              "__typename": "LocationSelection_LocationInformationV2Contact",
-              "streetAddress": {
-                "__typename": "LocationSelection_Address",
-                "street1": "3655 Las Vegas Blvd S"
-              }
-            },
-            "route": null
-          },
-          "details": {
-            "__typename": "LocationInformation",
-            "socialStatistics": {
-              "__typename": "SocialStatistics",
-              "isSaved": false
-            }
-          },
-          "image": {
-            "__typename": "PrimaryMedia_PrimaryMedia",
-            "photo": {
-              "__typename": "Photo",
-              "photoSizeDynamic": {
-                "__typename": "PhotoSizeDynamic",
-                "maxHeight": 1200,
-                "maxWidth": 2000,
-                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/e2/e3/34/eiffel-tower-restaurant.jpg?w={width}&h={height}&s=1"
-              },
-              "photoSizes": [
-                {
-                  "__typename": "PhotoSize",
-                  "height": 0,
-                  "width": 0,
-                  "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/02/e2/e3/34/eiffel-tower-restaurant.jpg?w=100&h=100&s=1"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 50,
-                  "width": 50,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-t/02/e2/e3/34/eiffel-tower-restaurant.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 150,
-                  "width": 150,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-l/02/e2/e3/34/eiffel-tower-restaurant.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 150,
-                  "width": 250,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-f/02/e2/e3/34/eiffel-tower-restaurant.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 330,
-                  "width": 550,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-s/02/e2/e3/34/eiffel-tower-restaurant.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 614,
-                  "width": 1024,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-w/02/e2/e3/34/eiffel-tower-restaurant.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 1200,
-                  "width": 2000,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-o/02/e2/e3/34/eiffel-tower-restaurant.jpg"
-                }
-              ]
-            }
-          }
-        },
-        {
-          "__typename": "Typeahead_LocationItem",
-          "documentId": "127002",
-          "detailsV2": {
-            "__typename": "LocationSelection_LocationInformationV2",
-            "locationId": 127002,
-            "isGeo": false,
-            "placeType": "ATTRACTION",
-            "names": {
-              "__typename": "LocationSelection_LocationNames",
-              "name": "Eiffel Tower Viewing Deck",
-              "longOnlyHierarchyTypeaheadV2": "Las Vegas, Nevada"
-            },
-            "geocode": {
-              "__typename": "LocationSelection_LocationInformationV2Geocode",
-              "latitude": 36.11251,
-              "longitude": -115.17236
-            },
-            "contact": {
-              "__typename": "LocationSelection_LocationInformationV2Contact",
-              "streetAddress": {
-                "__typename": "LocationSelection_Address",
-                "street1": "3655 Las Vegas Blvd. South"
-              }
-            },
-            "route": null
-          },
-          "details": {
-            "__typename": "LocationInformation",
-            "socialStatistics": {
-              "__typename": "SocialStatistics",
-              "isSaved": false
-            }
-          },
-          "image": {
-            "__typename": "PrimaryMedia_PrimaryMedia",
-            "photo": {
-              "__typename": "Photo",
-              "photoSizeDynamic": {
-                "__typename": "PhotoSizeDynamic",
-                "maxHeight": 1994,
-                "maxWidth": 2999,
-                "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/cc/9a/99/eiffel-tower-experience.jpg?w={width}&h={height}&s=1"
-              },
-              "photoSizes": [
-                {
-                  "__typename": "PhotoSize",
-                  "height": 0,
-                  "width": 0,
-                  "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/cc/9a/99/eiffel-tower-experience.jpg?w=100&h=100&s=1"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 50,
-                  "width": 50,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-t/14/cc/9a/99/eiffel-tower-experience.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 150,
-                  "width": 150,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-l/14/cc/9a/99/eiffel-tower-experience.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 200,
-                  "width": 180,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-i/14/cc/9a/99/eiffel-tower-experience.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 166,
-                  "width": 250,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-f/14/cc/9a/99/eiffel-tower-experience.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 366,
-                  "width": 550,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-s/14/cc/9a/99/eiffel-tower-experience.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 681,
-                  "width": 1024,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-w/14/cc/9a/99/eiffel-tower-experience.jpg"
-                },
-                {
-                  "__typename": "PhotoSize",
-                  "height": 851,
-                  "width": 1280,
-                  "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/14/cc/9a/99/eiffel-tower-experience.jpg"
-                }
-              ]
-            }
-          }
-        },
-        {
-          "__typename": "Typeahead_QuerySuggestionItem",
-          "documentId": "2b9efe9c5ff8310401070297154479b90",
-          "suggestionType": "template",
-          "buCategory": "ATTRACTIONS",
-          "text": "eiffel tower tours and tickets paris",
-          "parentGeoDetails": {
-            "__typename": "LocationSelection_LocationInformationV2",
-            "names": {
-              "__typename": "LocationSelection_LocationNames",
-              "longOnlyHierarchyTypeaheadV2": "Ile-de-France, France"
-            }
-          },
-          "route": {
-            "__typename": "Routing_Route",
-            "fragment": null,
-            "page": "AttractionProductsFusion",
-            "url": "/Attraction_Products-g187147-d188151-Eiffel_Tower-Paris_Ile_de_France.html",
-            "nonCanonicalUrl": "/Attraction_Products-g187147-d188151-Eiffel_Tower-Paris_Ile_de_France.html?contentType=attraction_product&webVariant=AttractionProductsFusion",
-            "typedParams": {
-              "__typename": "Routing_AttractionProductsFusionParameters"
-            }
-          },
-          "scopeType": "GEO"
-        },
-        {
-          "__typename": "Typeahead_QuerySuggestionItem",
-          "documentId": "d5b515c99b215bae8a302a8c95a5606a0",
-          "suggestionType": "template",
-          "buCategory": "ATTRACTIONS",
-          "text": "eiffel tower viewing deck tours and tickets las vegas",
-          "parentGeoDetails": {
-            "__typename": "LocationSelection_LocationInformationV2",
-            "names": {
-              "__typename": "LocationSelection_LocationNames",
-              "longOnlyHierarchyTypeaheadV2": "Nevada, United States"
-            }
-          },
-          "route": {
-            "__typename": "Routing_Route",
-            "fragment": null,
-            "page": "AttractionProductsFusion",
-            "url": "/Attraction_Products-g45963-d127002-Eiffel_Tower_Viewing_Deck-Las_Vegas_Nevada.html",
-            "nonCanonicalUrl": "/Attraction_Products-g45963-d127002-Eiffel_Tower_Viewing_Deck-Las_Vegas_Nevada.html?contentType=attraction_product&webVariant=AttractionProductsFusion",
-            "typedParams": {
-              "__typename": "Routing_AttractionProductsFusionParameters"
-            }
-          },
-          "scopeType": "GEO"
-        },
-        {
-          "__typename": "Typeahead_RescueResultItem",
-          "documentId": "eiffel tower",
-          "text": "eiffel tower"
-        }
-      ]
-    }
-  }
-}
+<FlightCard displayStyle='portrait' width='20vw' height="25vw" data={ndata}/>
+https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/70/55/a8/coming-soon-subscribe.jpg?w=100&h=-1&s=1
+import React, { useState } from "react";
+import FlightCard from './flightsCards'
+function fetchData(place) {
+  const url = "https://travel-advisor.p.rapidapi.com/locations/v2/auto-complete?query="+place+"%20tower&lang=en_US&units=km";
+  const options = {
+      method: 'GET',
+      headers: {
+          'X-RapidAPI-Key': '10a4ba1cd4msh1ea4162312a54efp1c67bdjsnec864ab7b06e',
+          'X-RapidAPI-Host': 'travel-advisor.p.rapidapi.com'
+      }
+  };	
 
+  fetch(url, options)
+  .then(response => response.json())
+  .then(data => {
+      data = data.data.Typeahead_autocomplete.results;
+      // console.log(data[0]);
+      console.log(data[0].__typename); //catagroy..
+      console.log(data[0].detailsV2.placeType); //card subtitle2 
+      console.log(data[0].detailsV2.names.name);// Title
+      console.log(data[0].detailsV2.names.longOnlyHierarchyTypeaheadV2);//card subtitle 1
+      console.log(data[0].image.photo.photoSizeDynamic.urlTemplate);//cardTitleImg
+
+  })
+  .catch(error => {
+        console.error('Error fetching data:', error);
+      });
+}
+// fetchData("london");
+[
+  {
+      "__typename": "Typeahead_LocationItem",
+      "documentId": "loc;187547",
+      "detailsV2": {
+          "__typename": "LocationSelection_LocationInformationV2",
+          "locationId": 187547,
+          "isGeo": false,
+          "placeType": "ATTRACTION",
+          "names": {
+              "__typename": "LocationSelection_LocationNames",
+              "name": "Tower of London",
+              "longOnlyHierarchyTypeaheadV2": "London, England"
+          },
+          "geocode": {
+              "__typename": "LocationSelection_LocationInformationV2Geocode",
+              "latitude": 51.508026,
+              "longitude": -0.076073
+          },
+          "contact": {
+              "__typename": "LocationSelection_LocationInformationV2Contact",
+              "streetAddress": {
+                  "__typename": "LocationSelection_Address",
+                  "street1": null
+              }
+          },
+          "route": null
+      },
+      "details": {
+          "__typename": "LocationInformation",
+          "socialStatistics": {
+              "__typename": "SocialStatistics",
+              "isSaved": false
+          }
+      },
+      "image": {
+          "__typename": "PrimaryMedia_PrimaryMedia",
+          "photo": {
+              "__typename": "Photo",
+              "photoSizeDynamic": {
+                  "__typename": "PhotoSizeDynamic",
+                  "maxHeight": 3719,
+                  "maxWidth": 5207,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/c0/dc/f8/tower-of-london-white.jpg?w={width}&h={height}&s=1&cx=2515&cy=1577&chk=v1_1e1764bee68456e4ca27"
+              },
+              "photoSizes": [
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 0,
+                      "width": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/c0/dc/f8/tower-of-london-white.jpg?w=100&h=100&s=1&cx=2515&cy=1577&chk=v1_1e1764bee68456e4ca27"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 50,
+                      "width": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/1a/c0/dc/f8/tower-of-london-white.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 150,
+                      "width": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/1a/c0/dc/f8/tower-of-london-white.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 200,
+                      "width": 180,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/1a/c0/dc/f8/tower-of-london-white.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 179,
+                      "width": 250,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/1a/c0/dc/f8/tower-of-london-white.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 393,
+                      "width": 550,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/c0/dc/f8/tower-of-london-white.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 731,
+                      "width": 1024,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/1a/c0/dc/f8/tower-of-london-white.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 914,
+                      "width": 1280,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1a/c0/dc/f8/tower-of-london-white.jpg"
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "__typename": "Typeahead_LocationItem",
+      "documentId": "loc;187552",
+      "detailsV2": {
+          "__typename": "LocationSelection_LocationInformationV2",
+          "locationId": 187552,
+          "isGeo": false,
+          "placeType": "ATTRACTION",
+          "names": {
+              "__typename": "LocationSelection_LocationNames",
+              "name": "Tower Bridge",
+              "longOnlyHierarchyTypeaheadV2": "London, England"
+          },
+          "geocode": {
+              "__typename": "LocationSelection_LocationInformationV2Geocode",
+              "latitude": 51.505455,
+              "longitude": -0.075351
+          },
+          "contact": {
+              "__typename": "LocationSelection_LocationInformationV2Contact",
+              "streetAddress": {
+                  "__typename": "LocationSelection_Address",
+                  "street1": "Tower Bridge Road"
+              }
+          },
+          "route": null
+      },
+      "details": {
+          "__typename": "LocationInformation",
+          "socialStatistics": {
+              "__typename": "SocialStatistics",
+              "isSaved": false
+          }
+      },
+      "image": {
+          "__typename": "PrimaryMedia_PrimaryMedia",
+          "photo": {
+              "__typename": "Photo",
+              "photoSizeDynamic": {
+                  "__typename": "PhotoSizeDynamic",
+                  "maxHeight": 666,
+                  "maxWidth": 1000,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/8d/60/eb/tower-bridge.jpg?w={width}&h={height}&s=1"
+              },
+              "photoSizes": [
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 0,
+                      "width": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/8d/60/eb/tower-bridge.jpg?w=100&h=100&s=1"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 50,
+                      "width": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/07/8d/60/eb/tower-bridge.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 150,
+                      "width": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/07/8d/60/eb/tower-bridge.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 167,
+                      "width": 250,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/07/8d/60/eb/tower-bridge.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 366,
+                      "width": 550,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/07/8d/60/eb/tower-bridge.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 666,
+                      "width": 1000,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/07/8d/60/eb/tower-bridge.jpg"
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "__typename": "Typeahead_LocationItem",
+      "documentId": "loc;193097",
+      "detailsV2": {
+          "__typename": "LocationSelection_LocationInformationV2",
+          "locationId": 193097,
+          "isGeo": false,
+          "placeType": "ACCOMMODATION",
+          "names": {
+              "__typename": "LocationSelection_LocationNames",
+              "name": "The Tower Hotel",
+              "longOnlyHierarchyTypeaheadV2": "London, England"
+          },
+          "geocode": {
+              "__typename": "LocationSelection_LocationInformationV2Geocode",
+              "latitude": 51.506435,
+              "longitude": -0.072902
+          },
+          "contact": {
+              "__typename": "LocationSelection_LocationInformationV2Contact",
+              "streetAddress": {
+                  "__typename": "LocationSelection_Address",
+                  "street1": "St Katharine's Way"
+              }
+          },
+          "route": null
+      },
+      "details": {
+          "__typename": "LocationInformation",
+          "socialStatistics": {
+              "__typename": "SocialStatistics",
+              "isSaved": false
+          }
+      },
+      "image": {
+          "__typename": "PrimaryMedia_PrimaryMedia",
+          "photo": {
+              "__typename": "Photo",
+              "photoSizeDynamic": {
+                  "__typename": "PhotoSizeDynamic",
+                  "maxHeight": 6100,
+                  "maxWidth": 9150,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/10/d9/74/vicinity-2023-14.jpg?w={width}&h={height}&s=1"
+              },
+              "photoSizes": [
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 0,
+                      "width": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/10/d9/74/vicinity-2023-14.jpg?w=100&h=100&s=1"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 50,
+                      "width": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/29/10/d9/74/vicinity-2023-14.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 150,
+                      "width": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/29/10/d9/74/vicinity-2023-14.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 200,
+                      "width": 180,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/29/10/d9/74/vicinity-2023-14.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 167,
+                      "width": 250,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/29/10/d9/74/vicinity-2023-14.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 367,
+                      "width": 550,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/29/10/d9/74/vicinity-2023-14.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 683,
+                      "width": 1024,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-w/29/10/d9/74/vicinity-2023-14.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 853,
+                      "width": 1280,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/29/10/d9/74/vicinity-2023-14.jpg"
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "__typename": "Typeahead_LocationItem",
+      "documentId": "loc;11987901",
+      "detailsV2": {
+          "__typename": "LocationSelection_LocationInformationV2",
+          "locationId": 11987901,
+          "isGeo": false,
+          "placeType": "ACTIVITY",
+          "names": {
+              "__typename": "LocationSelection_LocationNames",
+              "name": "Tower of London Entrance Ticket Including Crown Jewels and Beefeater Tour",
+              "longOnlyHierarchyTypeaheadV2": "London, England"
+          },
+          "geocode": null,
+          "contact": {
+              "__typename": "LocationSelection_LocationInformationV2Contact",
+              "streetAddress": {
+                  "__typename": "LocationSelection_Address",
+                  "street1": null
+              }
+          },
+          "route": null
+      },
+      "details": {
+          "__typename": "LocationInformation",
+          "socialStatistics": {
+              "__typename": "SocialStatistics",
+              "isSaved": false
+          }
+      },
+      "image": {
+          "__typename": "PrimaryMedia_PrimaryMedia",
+          "photo": {
+              "__typename": "Photo",
+              "photoSizeDynamic": {
+                  "__typename": "PhotoSizeDynamic",
+                  "maxHeight": 480,
+                  "maxWidth": 720,
+                  "urlTemplate": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/5b/43/e0/caption.jpg?w={width}&h={height}&s=1"
+              },
+              "photoSizes": [
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 0,
+                      "width": 0,
+                      "url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/5b/43/e0/caption.jpg?w=100&h=100&s=1"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 50,
+                      "width": 50,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-t/1a/5b/43/e0/caption.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 150,
+                      "width": 150,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-l/1a/5b/43/e0/caption.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 200,
+                      "width": 180,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-i/1a/5b/43/e0/caption.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 167,
+                      "width": 250,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-f/1a/5b/43/e0/caption.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 367,
+                      "width": 550,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-s/1a/5b/43/e0/caption.jpg"
+                  },
+                  {
+                      "__typename": "PhotoSize",
+                      "height": 480,
+                      "width": 720,
+                      "url": "https://media-cdn.tripadvisor.com/media/photo-o/1a/5b/43/e0/caption.jpg"
+                  }
+              ]
+          }
+      }
+  },
+  {
+      "__typename": "Typeahead_QuerySuggestionItem",
+      "documentId": "key;tower-hill-tube-station;g186338",
+      "suggestionType": "query",
+      "buCategory": "SEARCH",
+      "text": "london tower hill tube station",
+      "parentGeoDetails": {
+          "__typename": "LocationSelection_LocationInformationV2",
+          "names": {
+              "__typename": "LocationSelection_LocationNames",
+              "longOnlyHierarchyTypeaheadV2": "England, United Kingdom"
+          }
+      },
+      "route": {
+          "__typename": "Routing_Route",
+          "fragment": null,
+          "page": "Search",
+          "url": "/Search?q=tower+hill+tube+station&geo=186338&searchSessionId=86ac4025-8ca0-4772-ad37-cb8cd14c7fd4",
+          "nonCanonicalUrl": "/Search?q=tower+hill+tube+station&geo=186338&searchSessionId=86ac4025-8ca0-4772-ad37-cb8cd14c7fd4",
+          "typedParams": {
+              "__typename": "Routing_SearchParameters"
+          }
+      },
+      "scopeType": "GEO"
+  },
+  {
+      "__typename": "Typeahead_QuerySuggestionItem",
+      "documentId": "key;tower-hill-station;g186338",
+      "suggestionType": "query",
+      "buCategory": "SEARCH",
+      "text": "london tower hill station",
+      "parentGeoDetails": {
+          "__typename": "LocationSelection_LocationInformationV2",
+          "names": {
+              "__typename": "LocationSelection_LocationNames",
+              "longOnlyHierarchyTypeaheadV2": "England, United Kingdom"
+          }
+      },
+      "route": {
+          "__typename": "Routing_Route",
+          "fragment": null,
+          "page": "Search",
+          "url": "/Search?q=tower+hill+station&geo=186338&searchSessionId=86ac4025-8ca0-4772-ad37-cb8cd14c7fd4",
+          "nonCanonicalUrl": "/Search?q=tower+hill+station&geo=186338&searchSessionId=86ac4025-8ca0-4772-ad37-cb8cd14c7fd4",
+          "typedParams": {
+              "__typename": "Routing_SearchParameters"
+          }
+      },
+      "scopeType": "GEO"
+  },
+  {
+      "__typename": "Typeahead_QuerySuggestionItem",
+      "documentId": "key;london-tower;p10022",
+      "suggestionType": "query",
+      "buCategory": "RESTAURANTS",
+      "text": "london tower",
+      "parentGeoDetails": null,
+      "route": {
+          "__typename": "Routing_Route",
+          "fragment": null,
+          "page": "Search",
+          "url": "/Search?q=london+tower&ssrc=e&searchSessionId=86ac4025-8ca0-4772-ad37-cb8cd14c7fd4",
+          "nonCanonicalUrl": "/Search?q=london+tower&ssrc=e&searchSessionId=86ac4025-8ca0-4772-ad37-cb8cd14c7fd4",
+          "typedParams": {
+              "__typename": "Routing_SearchParameters"
+          }
+      },
+      "scopeType": null
+  },
+  {
+      "__typename": "Typeahead_QuerySuggestionItem",
+      "documentId": "key;london-tower;g186338",
+      "suggestionType": "query",
+      "buCategory": "SEARCH",
+      "text": "london tower london",
+      "parentGeoDetails": {
+          "__typename": "LocationSelection_LocationInformationV2",
+          "names": {
+              "__typename": "LocationSelection_LocationNames",
+              "longOnlyHierarchyTypeaheadV2": "England, United Kingdom"
+          }
+      },
+      "route": {
+          "__typename": "Routing_Route",
+          "fragment": null,
+          "page": "Search",
+          "url": "/Search?q=london+tower&geo=186338&searchSessionId=86ac4025-8ca0-4772-ad37-cb8cd14c7fd4",
+          "nonCanonicalUrl": "/Search?q=london+tower&geo=186338&searchSessionId=86ac4025-8ca0-4772-ad37-cb8cd14c7fd4",
+          "typedParams": {
+              "__typename": "Routing_SearchParameters"
+          }
+      },
+      "scopeType": "GEO"
+  },
+  {
+      "__typename": "Typeahead_QuerySuggestionItem",
+      "documentId": "key;london-tower;p10023",
+      "suggestionType": "query",
+      "buCategory": "HOTELS",
+      "text": "london tower hotels",
+      "parentGeoDetails": null,
+      "route": {
+          "__typename": "Routing_Route",
+          "fragment": null,
+          "page": "Search",
+          "url": "/Search?q=london+tower&ssrc=h&searchSessionId=86ac4025-8ca0-4772-ad37-cb8cd14c7fd4",
+          "nonCanonicalUrl": "/Search?q=london+tower&ssrc=h&searchSessionId=86ac4025-8ca0-4772-ad37-cb8cd14c7fd4",
+          "typedParams": {
+              "__typename": "Routing_SearchParameters"
+          }
+      },
+      "scopeType": null
+  },
+  {
+      "__typename": "Typeahead_QuerySuggestionItem",
+      "documentId": "key;tower-hill-underground-station;g186338",
+      "suggestionType": "query",
+      "buCategory": "SEARCH",
+      "text": "london tower hill underground station",
+      "parentGeoDetails": {
+          "__typename": "LocationSelection_LocationInformationV2",
+          "names": {
+              "__typename": "LocationSelection_LocationNames",
+              "longOnlyHierarchyTypeaheadV2": "England, United Kingdom"
+          }
+      },
+      "route": {
+          "__typename": "Routing_Route",
+          "fragment": null,
+          "page": "Search",
+          "url": "/Search?q=tower+hill+underground+station&geo=186338&searchSessionId=86ac4025-8ca0-4772-ad37-cb8cd14c7fd4",
+          "nonCanonicalUrl": "/Search?q=tower+hill+underground+station&geo=186338&searchSessionId=86ac4025-8ca0-4772-ad37-cb8cd14c7fd4",
+          "typedParams": {
+              "__typename": "Routing_SearchParameters"
+          }
+      },
+      "scopeType": "GEO"
+  },
+  {
+      "__typename": "Typeahead_RescueResultItem",
+      "documentId": "RESCUE",
+      "text": "london tower"
+  }
+]
