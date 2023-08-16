@@ -5,9 +5,9 @@ export default function flightsCards(props) {
     console.log(props.data.cardTitle)
 
   return (
-    <div style={{width:`${props.width}` , height:`${props.height}`}} className={`my2 cardRow borderCheck ${props.displayStyle}`}>
+    <div style={{width:`${props.width}` , height:`${props.height}`}} className={`my2 cardRow ${props.displayStyle}`}>
       <img src={DefaultImg} alt="img" className='cardTitleImg' />
-      <div className='cardDetails column justifyBetween borderCheck'>
+      <div className='cardDetails column'>
             <small className='cardSubTitle2'>{props.data.cardSubTitle2}</small>
             <p className='cardTitle'>{props.data.cardTitle}</p>
             <p className='cardSubTitle1'>{props.data.cardSubTitle1}</p>

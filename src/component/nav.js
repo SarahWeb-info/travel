@@ -1,21 +1,17 @@
 import React from 'react'
 
 export default function nav() {
+  const cathFocus=() =>{
+      document.getElementById('playingP').style.display = 'none';
+  }
+  const lostFocus=() =>{
+    document.getElementById('playingP').style.display = 'block';
+  }
+  
     return (
-    <div className='row justifyBetween flexCenter nav'>
-      <ul className='row noLi'>
-      <div>
-        <img src="favicon-16x16.png" alt="" />
+      <div  className='nav' onFocusCapture={cathFocus} onClick={cathFocus}>
+        <label htmlFor='searchFor' id="playingP">Destination</label>
+        <input type="text" placeholder='Where to..' id='searchFor' onBlur={lostFocus} />
       </div>
-        <li className='px2'>Home</li>
-        <li className='px2'>Airports</li>
-        <li className='px2'>Departures</li>
-        <li className='px2'>Arivals</li>
-      </ul>
-      <div className='row blockWidth px2'>
-        <input type="text"/>
-        <button className='button'>Search</button>
-      </div>
-    </div>
   )
 }

@@ -1,69 +1,83 @@
-.dashBoardIntro{
-    text-align: center;
-    padding-top: 20vh;
-    padding-bottom: 20vh;
-    border-radius: 0;
-    width: 100vw;
-    height: 80vh;
-    font-size: 8vw;
-    position: relative;
-    mix-blend-mode: color-burn;
-    color: #ffffffa3;
-    text-shadow: 1px 2px 2px rgba(11,44,66,0.98);
-}
-
 .flightContainer{
-    border-top-left-radius: 25vw;
-    border-top-right-radius: 25vw;
+    z-index: 0;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
     background-color: white;
-    margin-top: -10vh;
-    padding-top: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: auto;
+    height: 100vw;
     overflow: hidden;
-}   
-.rotatingTxt{
-    position: absolute;
-    top : 0;
-    left: 50%;
-    font-size: 8vw;
-    color: #ffffffa3;
-    text-shadow: 1px 2px 2px rgba(11,44,66,0.98);
-}
-.landScape{
-    display: flex;
-    flex-direction: row;
-    align-items:flex-end;
-}
-.portrait{
-    display: flex;
-    flex-direction: column;
-    align-items:flex-end;
-}
-.cardRow{
     position: relative;
+}   
+
+ .ad{
+    /* position: absolute;
+    top : 20vh; */
+    min-width: 50vw;
+    min-height: 30vw;
+    height: fit-content;
+ }
+ .ad>img{
+     width: 16vw;
+     height: 18vw;
+     box-shadow: var(--shadow);
+ }   
+ .ad>img:first-child{
+    z-index: 0;
+ }
+ .ad>img:nth-child(2){
+    z-index: 1;
+    margin-bottom: -8vw;
+    margin-left: -5vw;
+ }
+ .ad>img:nth-child(3){
+    z-index: 0;
+    margin-bottom: 3vw;
+    margin-left: -10vw;
+ }
+ .ad>span{
+    width: 16vw;
+    height: 18vw;
+    margin-left: 2vw;
+    margin-bottom: -8vw;
+    overflow: hidden;
+ }
+ .ad h2{
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+ }
+ .ad p{
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1;
+ }
+ .carousal{
+    height: 40vw;
+ }
+ .cardRow{
+     position: relative;
     overflow: hidden;
     font-size: 1rem;
+    display: flex;
+    align-items:center;
 }
 .cardTitleImg{
     z-index: 2;
-    width: 100%;
     height: auto;
     overflow: hidden;
     background-color: transparent;
 }
 .cardDetails{
-    width: 50%;
-    /* height: 60%; */
     z-index: 1;
+    font-size: 100%;
 }
 .cardTitle{
     font-weight: bold;
-    font-size: 1.5rem !important;
     text-transform: uppercase;
 }
 .cardSubTitle1{
@@ -76,7 +90,6 @@
     text-transform: uppercase;
 }
 .cardDescription{
-    /* text-align: justify; */
     overflow: hidden;
     --max-lines: 3;
     --line-height: 1.4;
@@ -92,12 +105,61 @@
     bottom: 0;
     pointer-events: none;
     background: linear-gradient(to bottom, transparent, white);
-  }
+}
 
 .cardDesLink{
     font-size: 0.8rem;
     color : grey;
 }
+.landScape{
+    flex-direction: row;
+}
+.portrait{
+    flex-direction: column;
+}
+.landScape .cardTitleImg{
+    width: 50%;
+    height: auto;
+}
+.portrait .cardTitleImg{
+    width: 100%;
+    height: 100%;
+}
+.landScape .cardDetails{
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+.portrait .cardDetails{
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+}
+.carousalSlides>div{
+    margin: 0 1vw;
+}
+.dots{
+    margin: 2vh;
+}
+.dots>span{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 2px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 1vw;
+  }
+
+  .grid>div{
+    padding: 20px;
+  }
+
 @media screen and (min-width: 750px) {
     /* .cardRow{
         flex-direction: row;

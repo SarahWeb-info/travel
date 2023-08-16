@@ -1,7 +1,8 @@
 import React from 'react'
 import './dashboard.css'
 import FlightCard from './flightsCards'
-import FlyingText from './flyingText.js'
+import DefaultImg from './plane.png'
+import Rotatingtxt from './rotatingtxt'
 
 export default function dashboard() {
   let data = {
@@ -13,30 +14,35 @@ export default function dashboard() {
     cardDesLink : "See here"
   }
 
-
   return (
-    <div>
-      <div className="dashBoardIntro">
-      <FlyingText txt = "FAR"/> 
-      FAR AWAY
-    </div>
       <div className='flightContainer'>
-        
-        <div className='row '>
-          <FlightCard  displayStyle="portrait" width="40%" height="40vh" />
-          <FlightCard  displayStyle="portrait" width="40%" height="40vh" className='my2'/>
-          <FlightCard  displayStyle="portrait" width="40%" height="40vh"/>
+        <Rotatingtxt txt="FAR AWAY"/>
+        <div className='row flexEnd justifyCenter ad '>
+          <img src={DefaultImg} alt="" />
+          <img src={DefaultImg} alt="" />
+          <img src={DefaultImg} alt="" />
+          <span className='column' >
+            <h2>{data.cardTitle}</h2>
+            <p>{data.cardDescription}</p>
+            <small>{data.cardDesLink}</small>
+          </span>
         </div>
-        <div className='column flexCenter'>
-          <div className='row justifyAround'>
-        <FlightCard displayStyle="portrait" width="40%" height="50vh" data={data} />
-        <FlightCard displayStyle="portrait" width="40%" height="auto"  data={data} />
-
+        <div className='column justifyCenter carousal'>
+          <div className='row carousalSlides'>
+            <FlightCard width='40vw' height="35vw" data={data}/>
+            <FlightCard width='40vw' height="35vw" data={data}/>
+            <FlightCard width='40vw' height="35vw" data={data}/>
+            <FlightCard width='40vw' height="35vw" data={data}/>
+            <FlightCard width='40vw' height="35vw" data={data}/>
+            <FlightCard width='40vw' height="35vw" data={data}/>
+            <FlightCard width='40vw' height="35vw" data={data}/>
           </div>
-        <FlightCard displayStyle="landScape" width="80%" height="auto" data={data} />
+          <div className='row justifyCenter dots'>
+              <span></span>
+              <span></span>
+              <span></span>
+          </div>
         </div>
-        <FlightCard />
       </div>
-    </div>
   )
 }

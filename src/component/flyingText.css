@@ -13,18 +13,18 @@
     position: absolute;
 }
 .dancingLetters>span:nth-child(1){
-  left : 2vw;
-  top : 0;
+  left : -24vw;
+  top : -8vw;
   animation: pulse1 5s infinite both;
 }
 .dancingLetters>span:nth-child(2){
-    left : 10vw;
-    top : 4vw;
+    left : -16vw;
+    top : -4vw;
   animation: pulse2 5s infinite both;
 }
 .dancingLetters>span:nth-child(3){
-    left : 16vw;
-    top : 8vw;
+    left : -8vw;
+    top : 0;
      animation: pulse3 5s infinite both;
 }
   @-webkit-keyframes pulse1 {
