@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { TiThMenu , TiTimes } from "react-icons/ti";
+import { Link } from 'react-router-dom';
 
 export default function Nav() {
   const [closeMenu, setCloseMenu] = useState("none");
@@ -32,9 +33,9 @@ export default function Nav() {
     </div>
     <div id='menulist' style={{display : `${closeMenu}`}}>
           <span className='row justifyEnd' onClick={hideMenu}><TiTimes /></span>
-          <a href="/">Home</a>
-          <a href="/morePgs/aboutUs.js">About Us</a>
-          <a href="/morePgs/moreApps.js">More Apps</a>
+          <Link to="/">Home</Link>
+          <Link to="/aboutUs">About Us</Link>
+          <Link to="/moreApps">More Apps</Link>
         </div>
       </>
   )
