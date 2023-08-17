@@ -5,7 +5,9 @@ import FlyingText from './component/flyingText.js'
 import Dashboard from './component/dashboard'
 import Tags from './component/tags'
 import Grid from './component/grid'
- 
+import AboutUs from './morePgs/aboutUs'
+import MoreApps from './morePgs/moreApps.js'
+
 export default function App() {
   let apiKey = process.env.REACT_APP_API;
   return (
@@ -19,6 +21,8 @@ export default function App() {
     <Tags />
     <h2 className='alignCenter'>About Destination</h2>
     <Grid apiKey={apiKey} />
+    <AboutUs />
+    <MoreApps />
     <div id='footer'>
       <small>This webpage is made by SarahWeb.info  All Copyright Reserved</small>
     </div>

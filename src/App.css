@@ -1,26 +1,30 @@
 
 .nav{
   z-index: 1000;
-  position: relative;
-  overflow: hidden;
-  min-width: 175px;
-  height: 50px;
-  width: 15vw;
   position: fixed;
   top : 5vh;
   right: 5vw;
-  padding: 0;
-  box-shadow: var(--shadow);
+  width: fit-content;
+  height: 50px;
   background-color: transparent;
 }
-.nav,.nav input ,.nav label {
+.navSerach{
+  overflow: hidden;
+  position: relative;
+  width: 15vw;
+  min-width: 175px;
+  height: 50px;
+  padding: 0;
+  background-color: transparent;
+}
+.navSerach,.navSerach input ,.navSerach label {
   border-radius: 3.34vw;
   font-size: large;
   cursor: pointer;
   user-select: none;
   letter-spacing:1px ;
 }
-.nav label{
+.navSerach label{
   width: 100%;
   height: 100%;
   background:black;
@@ -58,7 +62,7 @@
     opacity: 1;
   }
 }
-.nav input{
+.navSerach input{
   /* margin-top: -1px;
   margin-left: -5px; */
   border: 0px solid transparent;
@@ -70,9 +74,51 @@
   background: var(--colorBg);
   color: black;
 }
-.nav input:focus-visible{
+.navSerach input:focus-visible{
   border: 0px solid transparent;
   outline: 0px solid transparent;
+}
+#navMenuBtn{
+  overflow: hidden;
+  position: relative;
+  width: 5vw;
+  min-width: 50px;
+  height: 50px;
+  padding: 0;
+  color : white;
+  background-color: rgba(0, 0, 0, 0.238);
+  cursor: pointer!important;
+  font-size: large;  
+  box-shadow: var(--shadow);
+  border-radius: 13%;
+  border: 1px solid white;
+  mix-blend-mode: difference;
+}
+#menulist{
+  z-index: 1000;
+  position: fixed;
+  top : 0px;
+  right: 0px;
+  width: 30vw;
+  height:100vh;
+  background-color: white;
+  list-style: none;
+  margin: 0;
+  padding: 2vh 1vw;
+  flex-direction: column;
+}
+#menulist>*{
+  color: var(--txt);
+  text-decoration: none;
+}
+#menulist a:hover{
+  text-shadow: 0px 0px 2px rgba(9,34,50,0.62);
+}
+#menulist>span{
+  font-size: xx-large;
+}
+#menulist>span:hover{
+ color: chocolate;
 }
 .intro{
   position: relative;

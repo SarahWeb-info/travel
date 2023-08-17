@@ -125,7 +125,6 @@ input:focus-visible{
 .column{
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 .justifyBetween{
   justify-content: space-between;
