@@ -4,11 +4,13 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Nav from './component/nav'
 import Home from './component/home'
 import AboutUs from './morePgs/aboutUs'
-import MoreApps from './morePgs/moreApps.js'
+import MoreApps from './morePgs/moreApps'
+import DataState from './context/dataState'
 
 export default function App() {
   return ( 
     <> 
+    <DataState>
       <BrowserRouter> 
         <Nav />    
            <Routes>
@@ -20,6 +22,7 @@ export default function App() {
         <small>This webpage is made by SarahWeb.info  All Copyright Reserved</small>
         </div>
   </BrowserRouter>
+  </DataState>
   {/* https://rapidapi.com/apidojo/api/travel-advisor */}
    </> 
   ); 

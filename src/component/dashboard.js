@@ -28,7 +28,7 @@ export default function Dashboard() {
           </span>
         </div>
         <div className='column justifyCenter carousal'>
-          <div className='carousalSlides' style={{}}>
+          <div className='carousalSlides' >
             <FlightCard width='40vw' height="35vw" data={data}/>
             <FlightCard width='40vw' height="35vw" />
             <FlightCard width='40vw' height="35vw" data={data}/>
