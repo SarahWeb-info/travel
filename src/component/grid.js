@@ -11,9 +11,7 @@ export default function Grid(props) {
         cardDesLink : "https://www.tripadvisor.com/"
    }]
   );
-  let i=0;
   useEffect(() => {
-    console.log(i++)
     getData();
     }, []);
 
@@ -83,11 +81,14 @@ const getData =()=>{
     });
 }
   return (
-    <div className='grid'>
-        {data.map((item, index) => (
-            <FlightCard displayStyle='portrait' width='20vw' height="25vw" key={index} data={item}/>
-            ))}
-
+    <div className='column flexCenter'>
+        <h2 className='alignCenter'>About Destination</h2>
+        <div className='grid'>
+            {data.map((item, index) => (
+                <FlightCard  key={index} data={item}/>
+                ))}
+        </div>
     </div>
+
   );
 }

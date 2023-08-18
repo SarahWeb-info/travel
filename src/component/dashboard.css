@@ -58,87 +58,21 @@
  }
  .carousal{
     height: 40vw;
- }
- .cardRow{
-     position: relative;
-    overflow: hidden;
-    font-size: 1rem;
-    display: flex;
-    align-items:center;
-}
-.cardTitleImg{
-    z-index: 2;
-    height: auto;
-    overflow: hidden;
-    background-color: transparent;
-}
-.cardDetails{
-    z-index: 1;
-    font-size: 100%;
-}
-.cardTitle{
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.cardSubTitle1{
-    font-weight: bold;
-    text-transform: capitalize;
-}
-.cardSubTitle2{
-    color: var(--colorBg);
-    font-weight: lighter;
-    text-transform: uppercase;
-}
-.cardDescription{
-    overflow: hidden;
-    --max-lines: 3;
-    --line-height: 1.4;
-    height: calc(var(--max-lines) * 1em * var(--line-height));
-    line-height: var(--line-height);
+    width: 100vw;
+    border: 1px solid green;
     position: relative;
-}
-.cardDescription::before {
-    content: "";
-    position: absolute;
-    height: calc(2em * var(--line-height));
-    width: 100%;
-    bottom: 0;
-    pointer-events: none;
-    background: linear-gradient(to bottom, transparent, white);
+    display: block;
+ }
+ .carousalSlides{
+  display: inline-flex;
+  transition: 2s all;
 }
 
-.cardDesLink{
-    font-size: 0.8rem;
-    color : grey;
-}
-.landScape{
-    flex-direction: row;
-}
-.portrait{
-    flex-direction: column;
-}
-.landScape .cardTitleImg{
-    width: 50%;
-    height: auto;
-}
-.portrait .cardTitleImg{
-    width: 100%;
-    height: 100%;
-}
-.landScape .cardDetails{
-    width: 50%;
-    height: 100%;
-    justify-content: center;
-}
-.portrait .cardDetails{
-    width: 100%;
-    height: fit-content;
-    justify-content: space-between;
-}
 .carousalSlides>div{
     margin: 0 1vw;
 }
 .dots{
+    position: relative;
     margin: 2vh;
 }
 .dots>span{
@@ -148,22 +82,5 @@
     background-color: gray;
     border-radius: 50%;
     margin: 2px;
-}
-.grid{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    padding: 1vw;
-  }
-
-  .grid>div{
-    padding: 20px;
-  }
-
-@media screen and (min-width: 750px) {
-    /* .cardRow{
-        flex-direction: row;
-        height : 35vh;
-    }    */
 }
 

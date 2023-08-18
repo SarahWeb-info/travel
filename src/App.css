@@ -137,6 +137,72 @@
 .intro*{
   mix-blend-mode: color-burn;
 }
+.card{
+ position: relative;
+ overflow: hidden;
+ box-sizing: border-box;
+ font-size: 1rem;
+ display: flex;
+ align-items:center;
+ box-shadow: var(--shadow);
+ border-radius: 5px;
+ padding: 0 1.5vw;
+}
+.card:hover{
+  box-shadow: 7px 8px 55px 1px rgba(0,0,0,1.37);
+}
+.cardResponsive ,.landScape{
+  flex-direction: row; 
+  width: 98vw;
+  height: 40vh;
+  margin: 1vh 2vw;
+}
+.landScape .cardTitleImg,.cardResponsive .cardTitleImg,.landScape .cardDetails,.cardResponsive .cardDetails{
+  width: 50%;
+  height: auto;
+}
+.portrait{
+  flex-direction: column;
+}
+.portrait .cardTitleImg,.portrait .cardDetails{
+  width: 100%;
+  height: 50%;
+}
+.cardTitleImg{
+  overflow: hidden;
+  background-color: transparent;
+}
+.cardDetails{
+  position: relative;
+  box-sizing: content-box;
+  font-size: 100%;
+}
+.cardTitle{
+  height: 2.5rem;
+  overflow: hidden;
+  hyphens: auto;
+  text-overflow: ellipsis; 
+  text-transform: uppercase;
+  text-align: justify;
+  font-weight: bold;
+ position: relative;
+
+}
+.cardSubTitle1{
+ font-weight: bold;
+ text-transform: capitalize;
+}
+.cardSubTitle2{
+ color: var(--colorBg);
+ font-weight: lighter;
+ text-transform: uppercase;
+}
+
+.cardDesLink{
+ font-size: 0.8rem;
+ color : grey;
+}
+
 .tags{
   overflow: hidden;
   display: block;
@@ -153,13 +219,13 @@
 }
 @keyframes bgAnim {
   0%{
-  background-size:100% 10vh , 100%;
+  background-size:100% 90vh , 100%;
   }
   50%{
-    background-size:100% 100vh , 100%;
+    background-size:100% 98vh , 100%;
     }
     100%{
-      background-size:100% 10vh , 100%;
+      background-size:100% 90vh , 100%;
       }  
 }
 .tags>a{
@@ -175,4 +241,35 @@
 .tags>a:hover{
   color: #061012;
   font-weight: bold;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 2vw;
+}
+
+@media screen and (min-width: 750px) {
+  .grid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cardResponsive{
+    width: auto;
+  }
+}
+@media screen and (min-width: 950px) {
+  .grid{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .cardResponsive{
+    flex-direction: column;
+    width: auto;
+  }
+  .cardResponsive .cardTitleImg{
+    width: auto;
+    height: 50%;
+  }
+  .cardResponsive .cardDetails{
+    width: 100%;
+    height: 50%;
+  }
 }

@@ -4,7 +4,7 @@ import DefaultImg from './plane.png'
 export default function flightsCards(props) {
 
   return (
-    <div style={{width:`${props.width}` , height:`${props.height}`}} className={`my2 cardRow ${props.displayStyle}`}>
+    <div style={{width:`${props.width}` , height:`${props.height}`}} className={`card ${props.displayStyle}`}>
       <img src={props.data.cardTitleImg?props.data.cardTitleImg:DefaultImg} alt="img" className='cardTitleImg' />
       <div className='cardDetails column'>
             <small className='cardSubTitle2'>{props.data.cardSubTitle2}</small>
@@ -17,9 +17,9 @@ export default function flightsCards(props) {
 }
 
 flightsCards.defaultProps = {
-    displayStyle: 'portrait' ,
-    width:"40%",
-    height:"50vh",
+    displayStyle: 'cardResponsive' ,
+    width:"",
+    height:"",
     data:{
         cardTitleImg :"",
         cardTitle : "",

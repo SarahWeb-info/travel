@@ -1,10 +1,10 @@
-import React from 'react'
-import './dashboard.css'
-import FlightCard from './flightsCards'
-import DefaultImg from './plane.png'
-import Rotatingtxt from './rotatingtxt'
+import './dashboard.css';
+import FlightCard from './flightsCards';
+import DefaultImg from './plane.png';
+import Rotatingtxt from './rotatingtxt';
 
-export default function dashboard() {
+export default function Dashboard() {
+
   let data = {
     cardTitleImg :"",
     cardTitle : "AnB Flights To Dubai",
@@ -28,9 +28,9 @@ export default function dashboard() {
           </span>
         </div>
         <div className='column justifyCenter carousal'>
-          <div className='row carousalSlides'>
+          <div className='carousalSlides' style={{}}>
             <FlightCard width='40vw' height="35vw" data={data}/>
-            <FlightCard width='40vw' height="35vw" data={data}/>
+            <FlightCard width='40vw' height="35vw" />
             <FlightCard width='40vw' height="35vw" data={data}/>
             <FlightCard width='40vw' height="35vw" data={data}/>
             <FlightCard width='40vw' height="35vw" data={data}/>

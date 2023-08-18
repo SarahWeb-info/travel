@@ -14,7 +14,7 @@ export default function home() {
         </div>
         <Dashboard />
         <Tags />
-        <h2 className='alignCenter'>About Destination</h2>
+        
         <Grid apiKey={apiKey} />           
     </>
   )
