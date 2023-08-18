@@ -1,12 +1,15 @@
 import React , {useContext} from 'react'
 import dataContext from '../context/dataContext'
+import FlightCard from '../component/flightsCards'
 
 export default function AboutUs() {
-  let a = useContext(dataContext);
+  let data = useContext(dataContext);
   return (
-    <div>
-        <h1>Sarahweb.info</h1>
-        <p>this is data title {a.cardTitle}</p>
+    <div className='grid'>
+    {data.map((item, index) => (
+        <FlightCard  key={index} data={item}/>
+        ))}
     </div>
+
   )
 }
